@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -12,9 +11,9 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Spf" customModuleProvider="target"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="spfTV" customModuleProvider="target"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
-        <customObject id="l7L-FZ-3TZ" customClass="SpfMenuController" customModule="Spf" customModuleProvider="target">
+        <customObject id="l7L-FZ-3TZ" customClass="SpfMenuController" customModule="spfTV" customModuleProvider="target">
             <connections>
                 <outlet property="clearMenuItem" destination="mXr-Ps-Kl5" id="IPU-fg-prT"/>
                 <outlet property="spfMenu" destination="rTt-H4-6Bj" id="cH7-41-NlV"/>
@@ -53,17 +52,14 @@
                     </connections>
                 </menuItem>
                 <menuItem isSeparatorItem="YES" id="U0J-5Q-47X"/>
-                <menuItem title="Run test" id="oie-Xf-nCt">
+                <menuItem title="Test" id="oie-Xf-nCt">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="setOverlayWithSender:" target="l7L-FZ-3TZ" id="l0v-Gw-wNU"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Learn more →" id="PfI-4j-YdZ">
+                <menuItem title="Info @mjux" id="t9i-9V-O8k">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <connections>
-                        <action selector="goToAboutWithSender:" target="l7L-FZ-3TZ" id="GPd-9Y-WSf"/>
-                    </connections>
                 </menuItem>
                 <menuItem title="Quit" id="zYj-4P-Rqu">
                     <modifierMask key="keyEquivalentModifierMask"/>
